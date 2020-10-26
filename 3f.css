@@ -23,3 +23,15 @@ html body{
     margin-bottom: 50px;
     flex-wrap: wrap;
  }
+.nav-item{
+    margin-right: 80px;
+    font-size: 25px;
+}
+.navbar-brand{
+    margin-top:7px;
+    font-size:30px;
+}
+.sumate{
+    margin-top: 7px;
+    font-size:25px;
+}
