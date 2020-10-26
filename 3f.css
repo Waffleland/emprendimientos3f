@@ -1,0 +1,25 @@
+#portada{
+    text-align: center;
+    
+}
+.jumbotron{
+    background-color: rgb(19,61,110);
+    color:white;
+    margin-top:100px;
+}
+.card{
+    margin:10px;
+    background-color: rgb(248,249,250);
+    display:block;
+    height: min-content;
+}
+html body{
+    background-image: url(imagenes/fondo.jpg);
+}
+.contenedor{
+    display: flex; 
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+ }
