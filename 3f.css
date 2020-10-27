@@ -35,3 +35,32 @@ html body{
     margin-top: 7px;
     font-size:25px;
 }
+.app{
+    margin:25px;
+    border-radius: 5px;
+    border:1px solid rgb(19,61,110);
+    display:block;
+    width:400px;
+    text-align: center;
+    padding:5px;
+    background-color: #FFFFFF80;
+}
+.firma{
+    display:block;
+    float: right;
+    text-align: center;
+    border-radius: 5px;
+    border:1px solid rgb(19,61,110);
+    margin:25px;
+    padding:5px;
+    height: 120px;
+    background-color: #FFFFFF80;
+}
+.fab{
+    font-size: 50px;
+    margin:10px;
+}
+.footer{
+justify-content: space-between;
+display:flex;
+}
