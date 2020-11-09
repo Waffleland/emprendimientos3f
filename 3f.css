@@ -67,12 +67,12 @@ html body{
     border:1px solid rgb(19,61,110);
     margin:25px;
     padding:5px;
-    height: 120px;
+    height: 160px;
     background-color: #FFFFFF80;
 }
 .fab{
     font-size: 50px;
-    margin:10px;
+    margin-bottom:10px;
 }
 .footer{
 justify-content: space-between;
