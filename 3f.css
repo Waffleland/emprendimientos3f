@@ -7,7 +7,10 @@
 .jumbotron{
     background-color: rgb(19,61,110);
     color:white;
-    margin-top:100px;
+    margin-top:150px;
+}
+.btn:active{
+    transform: scale(0.8);
 }
 .card{
     margin:10px;
@@ -23,13 +26,15 @@ html body{
     background-image: url(imagenes/fondo3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .contenedor{
     display: flex; 
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 130px;
     margin-bottom: 50px;
     flex-wrap: wrap;
+
  }
 .nav-item{
     margin-right: 80px;
@@ -82,4 +87,19 @@ display:flex;
 }
 .btn{
     margin-top:4px;
+}
+
+.dropdown-toggle{
+    border-radius: 10px;
+}
+.navbar{
+    display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index:100;
+}
+.card{
+    border: 2px solid black;
 }
